@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/FirstFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/SingleLiveEvent.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/models/Card.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/models/ComponentRenderer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/models/ImageAtomModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/presenter/ContentGridListRowPresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/presenter/ContentGridRowPresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/presenter/CustomListRowHeaderPresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/ui/ContextExtensions.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/ui/ImageViewExt.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/ui/ViewExtensions.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/utils/Constants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/utils/DefaultImageOptimization.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/BaseCardWidgetTV.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/ContentGridRowBinder.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/CustomVerticalGridView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/PageScrollListenerTv.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/PosterCardView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/adapter/PageComponentAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/animation/ComponentItemAnimator.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/atom/AtomRoundedImage.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/layoutmanager/LunaPageLayoutManagerProvider.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/scroll/PageScrollListener.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/talkback/poc/views/scroll/PageScrollListenerTv.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/fallback_image_transparent.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/image_placeholder.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/header_content_rail.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_poster.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/luna_simple_page.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/rounded_corner_image_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/tv_row.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/AndroidTVSamples/tv-samples/ReferenceAppKotlin/app/src/main/java/com/android/tv/reference/browse/BrowseAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/AndroidTVSamples/tv-samples/ReferenceAppKotlin/app/src/main/java/com/android/tv/reference/browse/BrowseFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/main/java/com/discovery/plus/extensions/StringExtensions.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/main/java/com/discovery/plus/ui/components/factories/tabbed/page/TabbedPageTabsContainerFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/main/java/com/discovery/plus/ui/components/utils/TimeDurationUtilsEx.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/presentation/pageviewholders/TabbedPrimaryPageViewHolder.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/factories/contentgrid/ContentGridRowBinder.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/factories/contentgrid/ContentGridRowPresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/utils/AnimationUtils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/utils/StringUtils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/utils/ViewExtentions.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/views/component/StandardCardView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/views/component/hero/ItemDetailHeroBannerView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/views/component/hero/PrimaryHeroBannerView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/views/component/hero/PrimaryHeroPageRecyclerViewAnimator.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/views/component/hero/PrimaryHeroViewAnimator.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/views/component/hero/PrimaryHeroViewBinder.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/java/com/discovery/plus/ui/components/views/tabbedcontent/detail/DetailCardView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/res/layout/item_hero_banner.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/television/res/layout/tv_row.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/app/src/test/java/com/discovery/plus/ui/components/utils/StringExtensionsTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/common/badging/src/main/java/com/discovery/plus/badging/mappers/BadgesMapper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/newModules/luna-core/src/main/java/com/discovery/luna/presentation/LunaMainActivityBase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/newModules/luna-core/src/main/java/com/discovery/luna/presentation/navigation/BackstackNavigator.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/newModules/luna-core/src/main/java/com/discovery/luna/presentation/pagerenderer/LunaPageLoaderBaseFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/newModules/luna-core/src/main/java/com/discovery/luna/templateengine/LunaPageView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/AndroidStudioProjects/global_codebase/global_app/newModules/luna-core/src/main/java/com/discovery/luna/templateengine/layoutManager/LunaPageLayoutManagerProvider.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
