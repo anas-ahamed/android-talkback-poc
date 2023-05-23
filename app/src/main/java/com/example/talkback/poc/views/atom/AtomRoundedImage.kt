@@ -2,6 +2,7 @@ package com.example.talkback.poc.views.atom
 
 import android.content.Context
 import android.util.AttributeSet
+import android.view.View
 import androidx.appcompat.widget.AppCompatImageView
 import com.example.talkback.poc.models.ImageAtomModel
 import com.example.talkback.poc.ui.setImage
@@ -20,7 +21,12 @@ class AtomRoundedImage @JvmOverloads constructor(
                     setImage(
                         data.imageUrl,
                         placeholderDrawable = placeholder,
-                        errorDrawable = errorDrawable
+                        errorDrawable = errorDrawable,
+                        onImageLoadSuccess = {
+                            isFocusable = true
+                            isFocusableInTouchMode = true
+                            importantForAccessibility = View.IMPORTANT_FOR_ACCESSIBILITY_YES
+                        }
                     )
                 }
             }

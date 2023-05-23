@@ -17,6 +17,7 @@ import com.example.talkback.poc.models.ComponentRenderer
 import com.example.talkback.poc.presenter.ContentGridListRowPresenter
 import com.example.talkback.poc.presenter.ContentGridRowPresenter
 import com.example.talkback.poc.presenter.CustomListRowHeaderPresenter
+import com.example.talkback.poc.views.ContentGridRowBinder
 import com.example.talkback.poc.views.adapter.PageComponentAdapter
 import com.example.talkback.poc.views.layoutmanager.LunaPageRecyclerLayoutManager
 import com.example.talkback.poc.views.scroll.PageScrollListenerTv
@@ -31,7 +32,7 @@ class FirstFragment : Fragment() {
 
 
     private val binding get() = _binding!!
-    private var adapter: PageComponentAdapter? = null
+    private var pageComponentAdapter: PageComponentAdapter? = null
     private val layoutOrientation = StaggeredGridLayoutManager.VERTICAL
     private val pageRecyclerLayoutManager = LunaPageRecyclerLayoutManager(1, layoutOrientation)
     val pageScrollListener: PageScrollListenerTv = PageScrollListenerTv()
@@ -53,9 +54,14 @@ class FirstFragment : Fragment() {
         headerPresenter = CustomListRowHeaderPresenter()
     }
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        // This is for Browse Fragment implementation
+//        headersState = HEADERS_DISABLED
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         val cards = listOf(
             Card("https://us1-prod-images.disco-api.com/2020/06/13/0d72a5f5-8110-3eb8-a83f-b863e680ed17.jpeg", 0),
             Card("https://us1-prod-images.disco-api.com/2023/02/25/ff1c59d8-658b-3d86-b0e1-1754c266da08.jpeg", 1),
@@ -83,15 +89,35 @@ class FirstFragment : Fragment() {
             ComponentRenderer(cards, 7, 0),
             ComponentRenderer(cards, 8, 0),
             ComponentRenderer(cards, 9, 0),
+            ComponentRenderer(cards, 10, 0),
+            ComponentRenderer(cards, 11, 0),
+            ComponentRenderer(cards, 12, 0),
+            ComponentRenderer(cards, 13, 0),
+            ComponentRenderer(cards, 14, 0),
+            ComponentRenderer(cards, 15, 0),
+            ComponentRenderer(cards, 16, 0),
+            ComponentRenderer(cards, 17, 0),
+            ComponentRenderer(cards, 18, 0),
+            ComponentRenderer(cards, 19, 0),
+            ComponentRenderer(cards, 20, 0)
         )
 
 
         context?.let {
-            adapter = PageComponentAdapter(
+            pageComponentAdapter = PageComponentAdapter(
                 context = it,
                 componentRenderers = componentRenederers
             )
-            _binding?.pageRecycler?.adapter = adapter
+            // This is for Browse Fragment implementation
+            /*val contentRowBinder = ContentGridRowBinder(
+                it,
+                getView(),
+                null
+            )
+            componentRenederers.forEach {
+                contentRowBinder.bind(it)
+            }*/
+            _binding?.pageRecycler?.adapter = pageComponentAdapter
             pageScrollListener.addListener(_binding?.pageRecycler)
             activity?.lifecycleScope?.launchWhenStarted {
                 pageScrollListener.run {
@@ -117,7 +143,6 @@ class FirstFragment : Fragment() {
                 }
             }
         }
-
     }
 
     override fun onDestroyView() {

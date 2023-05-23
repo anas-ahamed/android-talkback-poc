@@ -53,6 +53,8 @@ class ContentGridRowBinder(val context: Context, val view: View, val parent: Vie
         )
     }
 
+    fun getArrayAdapter() = itemAdapter
+
     private fun setListRow(
         header: HeaderItem,
         adapter: ArrayObjectAdapter,

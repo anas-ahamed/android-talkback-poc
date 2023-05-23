@@ -39,3 +39,11 @@ m
 =app/src/main/java/com/example/talkback/poc/SingleLiveEvent.kt,b/a/bab2db10e563b09781b89af4c5fc07662ee100b6
 ƒ
 Sapp/src/main/java/com/example/talkback/poc/presenter/ContentGridListRowPresenter.kt,9/1/91c3f378984b05f52e69ac9a6554e0d5ab96ec30
+x
+Happ/src/main/java/com/example/talkback/poc/views/ContentGridRowBinder.kt,4/1/41f6aef0a4b2eb84e60f6f0d15ecc86725db317e
+
+Oapp/src/main/java/com/example/talkback/poc/views/scroll/PageScrollListenerTv.kt,5/7/57428332c154b5fc103b95b614a089533a956c35
+j
+:app/src/main/java/com/example/talkback/poc/MainActivity.kt,e/3/e3987ad5ef93c5a42c582412a566a25eaa1ad0ef
+k
+;app/src/main/java/com/example/talkback/poc/FirstFragment.kt,a/9/a9123f7f98bc4c91211c8bb2a6ea95f995b6e207
